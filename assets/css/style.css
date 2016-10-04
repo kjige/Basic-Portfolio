@@ -25,7 +25,7 @@ html, body {
 	height: 100%;
 	text-align: center;
 	float: left;
-	/*margin: 0px 40px 0px 120px;*/
+	margin: 0px auto;
 	border: #dddddd solid 1px;
 	padding: 0 20px 0 20px;
 }
@@ -90,38 +90,43 @@ h3 {
 .thumbRow {
 	/*display: inline-block;*/
 	/*float: left;*/
-	clear: both;
-	width: 100%;
-	margin: 0px;
+	/*clear: both;
+	width: 50%;
+	margin: 0px;*/
 	/*z-index: 0;*/
 	/*background: #ddd;*/
 }
 
 .thumb {
-	/*float: left;*/
-	width: 100%;
-	margin: 0px;
-	overflow: ;
-}
-.portfolio img {
 	float: left;
+	width: 45%;
+	margin: 10px 0;
+	background: #eee;
 	position: relative;
+}
+
+.portfolio img {
+	/*float: left;*/
+	/*position: relative;*/
 	/*margin: 10px auto;*/
-	width: 40%;
+	width: 100%;
 	/*margin: 5%;*/
-	z-index: 10;
+	margin-bottom: -20px;
+	/*z-index: 10;*/
 }
 
 .label {
-	float: left;
-	z-index: 20;
+	/*float: left;*/
+	clear: both;
+	/*z-index: 20;*/
 	padding: 10px;
-	width: 40%;
+	width: 100%;
+	margin-top: 0px;
 	/*margin: 5%;*/
 	background: #4aaaa5;
-	/*position: relative;*/
-	/*left: 0;
-	bottom: 0;*/
+	position: absolute;
+	/*left: 0;*/
+	bottom: 0px;
 	text-align: center;
 	color: #ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -162,7 +167,7 @@ aside ul li img {
 }
 
 h4 {
-	font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	margin: 20px 0 5px 0;
 }
 
