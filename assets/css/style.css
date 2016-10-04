@@ -64,6 +64,10 @@ a:link, a:visited {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+a:hover {
+	color: pink;
+}
+
 .aboutMe, .contact, .portfolio {
 	float: left;
 	display: block;
@@ -141,6 +145,11 @@ h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+.label:hover {
+	background-color: pink;
+	color: red;
+}
+
 aside {
 	float: left;
 	width: 270px;
@@ -159,6 +168,10 @@ aside ul {
 aside ul li img {
 	margin: 0;
 	padding: 10px;
+}
+
+aside ul li img:hover {
+	background: pink;
 }
 
 #github-icon {
@@ -207,6 +220,8 @@ button {
 	height: 50px;
 	margin-top: 10px;
 }
+
+
 
 .wrapper {
 	min-height: 100%;
