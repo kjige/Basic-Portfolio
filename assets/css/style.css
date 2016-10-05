@@ -41,6 +41,11 @@ body {
 	margin: 20px auto;
 }
 
+.container5 {
+	margin: 10px auto;
+	width: 204px;
+}
+
 header {
 	background: #ffffff;
 	width: 100%;
@@ -74,6 +79,7 @@ nav ul li {
 	float: left;
 	display: inline;
 	padding: 10px;
+	margin: 0 auto;
 	background: #ffffff;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -121,7 +127,8 @@ section h1 {
 h3 {
 	color: #4aaaa5;
 	border-bottom: 1px solid #dddddd;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
+	text-align: center;
 	font-size: 24px;
 	padding: 20px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -173,19 +180,21 @@ aside {
 	width: 270px;
 	background: #ffffff;
 	padding: 10px;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	border: #dddddd solid 1px;
 }
 
 aside ul {
 	display: inline;
-	margin: 0;
-	padding: 0;
+	/*float: left;*/
+	/*margin: 0 auto;*/
+	/*padding: 0;*/
 }
 
 aside ul li img {
-	margin: 0;
+	/*margin: 0 auto;*/
 	padding: 10px;
+	float: left;
 }
 
 aside ul li img:hover {
@@ -194,7 +203,7 @@ aside ul li img:hover {
 
 #github-icon {
 	float: left;
-	margin-left: 20px;
+	/*margin-left: 20px;*/
 }
 
 #linkedin-icon {
@@ -264,7 +273,7 @@ button {
 .footer, .push {
 	height: 60px;
 	position: relative;
-	/*clear: both;*/
+	clear: both;
 }
 
 .footer p {
